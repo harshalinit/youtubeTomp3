@@ -1,17 +1,12 @@
 [project]
 name = "youtubetomp3"
-version = "0.1.0"
-description = ""
+version = "0.2"
 authors = [
-    {name = "harshalpatel42",email = "harshalcodeonly@gmail.com"}
+    {name = "harshalinit"}
 ]
-readme = "README.md"
+
 requires-python = ">=3.14"
 dependencies = [
-    "yt-dlp (>=2026.7.4,<2027.0.0)"
+    "yt-dlp>=2026.8.19,<2027.0.0",
 ]
 
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
