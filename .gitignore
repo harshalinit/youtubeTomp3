@@ -9,3 +9,4 @@ build/*
 *.spec
 dist/*
 .vscode/*
+.env

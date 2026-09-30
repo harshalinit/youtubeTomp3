@@ -1,8 +1,12 @@
 import os
+from pathlib import Path
+
 import yt_dlp
+from dotenv import load_dotenv
 
 
-DOWNLOAD_FOLDER = "D:\youtubeTomp3"
+load_dotenv(Path(__file__).with_name(".env"))
+DOWNLOAD_FOLDER = os.getenv("DOWNLOAD_FOLDER", r"D:\youtubeTomp3\downloads")
 
 
 def download(url):
