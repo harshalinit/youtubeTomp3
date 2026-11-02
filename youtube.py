@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv(Path(__file__).with_name(".env"))
-DOWNLOAD_FOLDER = os.getenv("DOWNLOAD_FOLDER", r"D:\youtubeTomp3\downloads")
+DOWNLOAD_FOLDER = os.getenv("DOWNLOAD_FOLDER", r"D:\Engineering\youtubeTomp3\downloads")
 
 
 def download(url):
